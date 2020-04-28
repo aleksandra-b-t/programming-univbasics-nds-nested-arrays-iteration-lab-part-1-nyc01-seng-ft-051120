@@ -8,7 +8,8 @@ while couter < src.length do
   while inner_couter< src[couter].length do
     if src[couter][inner_couter] % 2 == 0;
       p src[couter][inner_couter]
-      inner_couter +=1;
     end
+    inner_couter +=1;
+  end
     couter += 1;
 end
